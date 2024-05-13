@@ -1,0 +1,39 @@
+.arrow {
+  position: absolute;
+}
+.arrow-left {
+  left: 10px;
+  cursor: pointer;
+}
+.arrow-right {
+  right: 10px;
+  cursor: pointer;
+}
+.carousel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1240px;
+  min-height: 470px;
+  position: relative;
+  margin: auto;
+  @media (max-width: 480px) {
+    height: 255px;
+  }
+  &--img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 25px;
+  }
+  &--counter {
+    position: relative;
+    top: 185px;
+    color: white;
+    font-size: 18px;
+  }
+}
