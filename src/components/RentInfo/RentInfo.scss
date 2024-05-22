@@ -5,6 +5,7 @@
   margin: 0 auto;
   @media (max-width: 480px) {
     flex-direction: column;
+    width: 415px;
   }
 }
 .styling {
@@ -23,11 +24,13 @@
   @media (max-width: 480px) {
     flex-direction: row-reverse;
     justify-content: space-between;
+    margin: 5px 0;
   }
 }
 .appartement {
   margin: 10px 0;
   color: #ff6060;
+  
   &--title {
     font-size: 36px;
   }
@@ -86,5 +89,7 @@
   width: 1240px;
   @media (max-width: 480px) {
     flex-direction: column;
+    width: 415px;
+    gap: 0;
   }
 }

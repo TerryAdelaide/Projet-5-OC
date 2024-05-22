@@ -4,6 +4,8 @@
   height: 223px;
   @media (max-width: 480px) {
     height: 110px;
+    width: 405px;
+    margin: 0 30px;
   }
   &--img {
     width: 100%;
@@ -38,6 +40,11 @@
   width: 1240px;
   height: 223px;
   margin: 25px auto;
+
+  @media (max-width: 480px) {
+    width: 415px;
+    margin-top: 0;
+  }
 
   &--img {
     position: relative;

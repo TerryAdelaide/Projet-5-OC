@@ -1,5 +1,8 @@
+// Importation de React
 import React from "react";
+// Importation de la composante Link depuis react-router-dom
 import { Link } from "react-router-dom";
+// Importation du fichier SCSS pour le composant Error
 import "./error.scss";
 
 const Error = () => {
@@ -16,4 +19,5 @@ const Error = () => {
   );
 };
 
+// Exportation du composant Error par défaut
 export default Error;

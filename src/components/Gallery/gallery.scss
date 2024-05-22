@@ -9,5 +9,7 @@
   justify-content: space-around;
   @media (max-width: 480px) {
     flex-direction: column;
+    width: 400px;
+    background-color: white;
   }
 }

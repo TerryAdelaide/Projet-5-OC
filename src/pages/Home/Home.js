@@ -1,4 +1,3 @@
-import "./Home.scss";
 import Banner from "../../components/Banner/Banner";
 import Gallery from "../../components/Gallery/Gallery";
 
