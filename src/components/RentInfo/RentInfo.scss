@@ -3,9 +3,21 @@
   justify-content: space-between;
   width: 1240px;
   margin: 0 auto;
+  @media (max-width: 1024px) {
+    width: 950px;
+  }
+  @media (max-width: 768px) {
+    width: 700px;
+  }
   @media (max-width: 480px) {
     flex-direction: column;
-    width: 415px;
+    width: 407.5px;
+  }
+  @media (max-width: 375px) {
+    width: 330px;
+  }
+  @media (max-width: 320px) {
+    width: 285px;
   }
 }
 .styling {
@@ -25,6 +37,7 @@
     flex-direction: row-reverse;
     justify-content: space-between;
     margin: 5px 0;
+    align-items: center;
   }
 }
 .appartement {
@@ -35,7 +48,7 @@
     font-size: 36px;
   }
   &--location {
-    margin: 5px;
+    margin-top: 15px;
     color: black;
     font-size: 18px;
   }
@@ -47,6 +60,14 @@
   &--name {
     width: 50%;
     font-size: 18px;
+    @media (max-width: 768px) {
+      display: flex;
+      align-items: center;
+    }
+    @media (max-width: 480px) {
+      display: flex;
+      align-items: center;
+    }
   }
   &--pic {
     height: 64px;
@@ -58,17 +79,25 @@
   display: flex;
   margin: 0;
   gap: 10px;
+  @media (max-width: 480px) {
+    width: 415px;
+    flex-wrap: wrap;
+  }
+  @media (max-width: 375px) {
+    max-width: 330px;
+    flex-wrap: wrap;
+  }
+  @media (max-width: 320px) {
+    width: 285px;
+    flex-wrap: wrap;
+  }
 }
 .tag {
   background-color: #ff6060;
-  border-radius: 15px;
+  border-radius: 10px;
   color: white;
   padding: 5px 20px 5px 20px;
   margin: 10px 0;
-  @media (max-width: 480px) {
-    font-size: 14px;
-    padding: 5px 10px 5px 10px;
-  }
 }
 .rating {
   display: flex;
@@ -87,9 +116,21 @@
   gap: 75px;
   margin: 0 auto;
   width: 1240px;
+  @media (max-width: 1024px) {
+    width: 950px;
+  }
+  @media (max-width: 768px) {
+    width: 700px;
+  }
   @media (max-width: 480px) {
+    width: 407.5px;
+  }
+  @media (max-width: 375px) {
+    width: 330px;
     flex-direction: column;
-    width: 415px;
     gap: 0;
+  }
+  @media (max-width: 320px) {
+    width: 290px;
   }
 }

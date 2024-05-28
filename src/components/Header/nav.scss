@@ -3,8 +3,11 @@ nav {
   justify-content: space-around;
   margin-right: auto;
   gap: 50px;
-  @media (max-width: 480px) {
-    gap: 0px;
+  @media (max-width: 375px) {
+    gap: 0;
+  }
+  @media (max-width: 320px) {
+    gap: 0;
   }
 }
 .nav--link {
