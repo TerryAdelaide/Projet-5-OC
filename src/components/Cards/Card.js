@@ -22,9 +22,9 @@ const Card = (props) => {
 
           {/* Titre de la carte défini par card.title */}
           <p className="card--text">{card.title}</p>
+          <div className="opacity"></div>
         </div>
         {/* Div pour l'effet d'opacité (overlay) sur la carte */}
-        <div className="opacity"></div>
       </article>
     </Link>
   );

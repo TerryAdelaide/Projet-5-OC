@@ -1,27 +1,14 @@
 .gallery {
   margin: 0 auto;
-  width: 1220px;
+  width: 90%;
   background-color: #f6f6f6;
   border-radius: 25px;
   padding: 10px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  @media (max-width: 1024px) {
-    width: 950px;
-  }
+  box-sizing: border-box;
   @media (max-width: 768px) {
-    width: 700px;
-  }
-  @media (max-width: 480px) {
-    flex-direction: column;
-    width: 400px;
     background-color: white;
-  }
-  @media (max-width: 375px) {
-    width: 335px;
-  }
-  @media (max-width: 320px) {
-    width: 285px;
   }
 }

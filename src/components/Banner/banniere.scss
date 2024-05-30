@@ -1,27 +1,12 @@
 .banner {
   margin: 30px auto;
-  width: 1240px;
+  width: 90%;
   height: 223px;
-  @media (max-width: 1024px) {
-    width: 975px;
-    margin: 27px auto;
-  }
+  
   @media (max-width: 768px) {
-    width: 725px;
-    margin: 27px auto;
+    width: 85%;
   }
-  @media (max-width: 480px) {
-    width: 407.5px;
-    margin: 27px auto;
-  }
-  @media (max-width: 375px) {
-    width: 335px;
-    margin: 27px auto;
-  }
-  @media (max-width: 320px) {
-    width: 290px;
-    margin: 27px auto;
-  }
+  
   &--img {
     width: 100%;
     height: 100%;
@@ -40,47 +25,25 @@
     align-items: center;
   }
   &--text {
-    color: white;
+    font-family: Montserrat;
+    font-size: 48px;
     font-weight: 700;
-    font-size: 2.5rem;
-    @media (max-width: 480px) {
+    line-height: 24px;
+    text-align: left;
+    color: white;
+    padding : 10px;
+    @media (max-width: 768px) {
       font-size: 1.75rem;
     }
-    @media (max-width: 375px) {
-      font-size: 1.5rem;
-    }
-    @media (max-width: 320px) {
-      font-size: 1.3rem;
     }
   }
-}
 
 .banner-about {
-  display: flex;
-  justify-content: center;
-  width: 1240px;
+  width: 90%;
   height: 223px;
-  margin: 25px auto;
-
-  @media (max-width: 1024px) {
-    width: 975px;
-    margin: 27px auto;
-  }
+  margin: 30px auto;
   @media (max-width: 768px) {
-    width: 725px;
-    margin: 27px auto;
-  }
-  @media (max-width: 480px) {
-    width: 407.5px;
-    margin: 27px auto;
-  }
-  @media (max-width: 375px) {
-    width: 335px;
-    margin: 27px auto;
-  }
-  @media (max-width: 320px) {
-    width: 290px;
-    margin: 27px auto;
+    width: 85%;
   }
 
   &--img {

@@ -1,21 +1,9 @@
 .dropdown {
   margin: 30px auto;
-  width: 1100px;
+  width: 76.5%;
 
-  @media (max-width: 1024px) {
-    width: 875px;
-  }
   @media (max-width: 768px) {
-    width: 635px;
-  }
-  @media (max-width: 480px) {
-    width: 407.5px;
-  }
-  @media (max-width: 375px) {
-    width: 330px;
-  }
-  @media (max-width: 320px) {
-    width: 285px;
+    width: 85%;
   }
 
   &--head {
